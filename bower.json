@@ -1,0 +1,23 @@
+{
+  "name": "code",
+  "version": "0.0.0",
+  "authors": [
+    "Mary Ellen Klein <maryellenklein@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/mellenklein/homework_week04_mon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "neat": "~1.7.2"
+  }
+}

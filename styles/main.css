@@ -1,0 +1,197 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  background: #fff url("http://lib.store.yahoo.net/lib/thehumansolution/UpLift-900-Reclaimed-Wood-top.jpg") no-repeat center;
+  background-size: cover; }
+
+body main {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin: 50px auto;
+  font-family: 'Exo', sans-serif;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+  background: none repeat scroll 0 0 #CECEBF; }
+  body main::after {
+    clear: both;
+    content: "";
+    display: table; }
+  body main::after {
+    content: '';
+    clear: both;
+    display: block; }
+
+section.hide {
+  display: none; }
+
+div.row1 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  width: 100%; }
+  div.row1:last-child {
+    margin-right: 0; }
+  div.row1 input.clearBtn {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 20px 0;
+    background: #565656;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 2px #777;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-right: 6px;
+    margin-left: 2px;
+    transition: background 0.3s ease, border-color 0.3s ease; }
+    div.row1 input.clearBtn:last-child {
+      margin-right: 0; }
+    div.row1 input.clearBtn:hover {
+      background: #80B977;
+      border-color: #68B15B;
+      transition: background 0.3s ease, border-color 0.3s ease; }
+    div.row1 input.clearBtn:focus {
+      outline: none; }
+    div.row1 input.clearBtn:active {
+      box-shadow: inset 2px 2px 5px 1px black;
+      color: #CADDA0;
+      border-top-color: black;
+      border-left-color: black; }
+  div.row1 div.answer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    text-align: right;
+    height: 75px;
+    border: 5px solid black;
+    box-shadow: inset 0px 5px 5px 1px;
+    border-radius: 5px;
+    color: #404145;
+    font-size: 1.9em;
+    font-weight: 500;
+    padding: 20px 20px 10px 0;
+    background: #CADDA0; }
+    div.row1 div.answer:last-child {
+      margin-right: 0; }
+
+div.row2 {
+  margin-top: 10px; }
+
+div.row2,
+div.row3,
+div.row4,
+div.row5 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  width: 100%; }
+  div.row2:last-child,
+  div.row3:last-child,
+  div.row4:last-child,
+  div.row5:last-child {
+    margin-right: 0; }
+  div.row2 input,
+  div.row3 input,
+  div.row4 input,
+  div.row5 input {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 20px 0;
+    background: #252525;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 2px #777;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 200;
+    margin: 5px 3px;
+    transition: background 0.3s ease, box-shadow 1s ease; }
+    div.row2 input:last-child,
+    div.row3 input:last-child,
+    div.row4 input:last-child,
+    div.row5 input:last-child {
+      margin-right: 0; }
+    div.row2 input:hover,
+    div.row3 input:hover,
+    div.row4 input:hover,
+    div.row5 input:hover {
+      background: gray;
+      transition: background 0.3s ease;
+      border-color: #565656; }
+    div.row2 input:focus,
+    div.row3 input:focus,
+    div.row4 input:focus,
+    div.row5 input:focus {
+      outline: none; }
+    div.row2 input:active,
+    div.row3 input:active,
+    div.row4 input:active,
+    div.row5 input:active {
+      box-shadow: inset 2px 2px 5px 1px black;
+      color: #393D3D; }
+  div.row2 input.equalBtn,
+  div.row3 input.equalBtn,
+  div.row4 input.equalBtn,
+  div.row5 input.equalBtn {
+    background: #FFB023;
+    border-color: #FF9003;
+    transition: background 0.3s ease, color 0.3s ease; }
+    div.row2 input.equalBtn:hover,
+    div.row3 input.equalBtn:hover,
+    div.row4 input.equalBtn:hover,
+    div.row5 input.equalBtn:hover {
+      background: #FF9003;
+      transition: background 0.3s ease, color 0.3s ease; }
+    div.row2 input.equalBtn:focus,
+    div.row3 input.equalBtn:focus,
+    div.row4 input.equalBtn:focus,
+    div.row5 input.equalBtn:focus {
+      box-shadow: inset 2px 2px 5px 1px black;
+      border-top-color: black;
+      border-left-color: black;
+      color: #393D3D; }
+
+#divideBtn,
+#multBtn,
+#addBtn,
+#subtBtn {
+  color: white;
+  background: #FF516A;
+  transition: color 0s;
+  transition: background 0.3s ease;
+  border-color: #EE415A; }
+  #divideBtn:hover,
+  #multBtn:hover,
+  #addBtn:hover,
+  #subtBtn:hover {
+    background: #ff015a;
+    transition: background 0.3s ease; }
+  #divideBtn:active,
+  #multBtn:active,
+  #addBtn:active,
+  #subtBtn:active {
+    color: #393D3D;
+    transition: color 0s;
+    border-top-color: black;
+    border-left-color: black; }
